@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ClientPoolManager	thriker/manager.py	/^class ClientPoolManager(object):$/;"	c
+__getitem__	thriker/manager.py	/^    def __getitem__(self, name):$/;"	m	class:ClientPoolManager	file:
+__init__	thriker/manager.py	/^    def __init__(self):$/;"	m	class:ClientPoolManager
+_add_connection_pool	thriker/manager.py	/^    def _add_connection_pool(self, service, host, port, timeout=30, name=None):$/;"	m	class:ClientPoolManager
+_load_service	thriker/manager.py	/^    def _load_service(self, service_name):$/;"	m	class:ClientPoolManager
+add_connection_pool	thriker/manager.py	/^    def add_connection_pool(self):$/;"	m	class:ClientPoolManager
+contextlib	thriker/manager.py	/^import contextlib$/;"	i
+generate_thrift_mapping	thriker/manager.py	/^    def generate_thrift_mapping(self, service_name):$/;"	m	class:ClientPoolManager
+glob	thriker/manager.py	/^import glob$/;"	i
+load_all_services	thriker/manager.py	/^    def load_all_services(self):$/;"	m	class:ClientPoolManager
+load_config	thriker/manager.py	/^    def load_config(self, config):$/;"	m	class:ClientPoolManager
+make_client	thriker/manager.py	/^    def make_client(self, service_name):$/;"	m	class:ClientPoolManager
+path	thriker/manager.py	/^from os import path$/;"	i
+thriftpy	thriker/manager.py	/^import thriftpy$/;"	i
