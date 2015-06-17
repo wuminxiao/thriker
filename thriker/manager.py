@@ -22,7 +22,7 @@ class ClientPoolManager(object):
         self.thrift_files = glob.glob(path.join(current_path,
                                       'draenor_thrifts', "*.thrift"))
         self.draenor_thrift = \
-            dict((path.splitext(path.basename(t))[0], t) for t in self.thrift_files)
+            dict((path.splitext(path.basename(t))[0], t) for t in self.thrift_files)    # noqa
 
     def load_config(self, config):
         # DRAENOR_THRIFT_SETTINGS = {
